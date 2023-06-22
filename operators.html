@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>Story Of Proud Operator Of JS</h1>
+		<p id="001"></p>
+		<p>Okay 😑 ! what is it?</p>
+		<p id="002"></p>
+		<p>What the fuck are those?</p>
+		<script>
+			let dialog_001 = "Hey HTML wanna see some cool staff of mine?";
+			const list_of_operator_name = [
+				"Arithmetic",
+				"Assignment",
+				"Comparison",
+				"String",
+				"Logical",
+				"Bitwise",
+				"Ternary",
+				"Type",
+			];
+			let dialog_002 = "See this old  ";
+			// string concat
+			let concat_ = dialog_002.concat(list_of_operator_name.join(", "));
+			// calling html element by ID
+			document.getElementById("001").innerHTML = dialog_001;
+			document.getElementById("002").innerHTML = concat_;
+		</script>
+	</body>
+</html>
